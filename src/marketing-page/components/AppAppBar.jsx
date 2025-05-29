@@ -54,7 +54,10 @@ export default function AppAppBar() {
             <Sitemark />
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Button variant="text" color="info" size="small">
-                Solution
+                Our Approach
+              </Button>
+              <Button variant="text" color="info" size="small">
+                Use Cases
               </Button>
               <Button variant="text" color="info" size="small">
                 About Us
@@ -83,9 +86,9 @@ export default function AppAppBar() {
             <Button color="primary" variant="text" size="small">
               Sign in
             </Button>
-            <Button color="primary" variant="contained" size="small">
+            {/* <Button color="primary" variant="contained" size="small">
               Sign up
-            </Button>
+            </Button> */}
             <ColorModeIconDropdown />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
@@ -115,18 +118,16 @@ export default function AppAppBar() {
                   </IconButton>
                 </Box>
 
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Testimonials</MenuItem>
-                <MenuItem>Highlights</MenuItem>
-                <MenuItem>Pricing</MenuItem>
-                <MenuItem>FAQ</MenuItem>
-                <MenuItem>Blog</MenuItem>
+                <MenuItem>Our Approach</MenuItem>
+                <MenuItem>Use Cases</MenuItem>
+                <MenuItem>About Us</MenuItem>
+                <MenuItem>Contact</MenuItem>
                 <Divider sx={{ my: 3 }} />
-                <MenuItem>
+                {/* <MenuItem>
                   <Button color="primary" variant="contained" fullWidth>
                     Sign up
                   </Button>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem>
                   <Button color="primary" variant="outlined" fullWidth>
                     Sign in

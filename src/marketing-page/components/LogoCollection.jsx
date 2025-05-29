@@ -22,16 +22,25 @@ const darkLogos = [
   'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5ca4e548b0deb1041c33_Ankara-black.svg',
 ];
 
+const betaTestLogos =[
+  'byu-brigham-young-university-logo.png',
+  'Alpine-School-District.png',
+  'Intermountain_Health_2023_logo.png',
+  'Nebo-School-District-Logo.png',
+  'Princeton-Logo.png',
+  'Weber_State_University_logo.png'
+];
+
 const logoStyle = {
   width: '100px',
-  height: '80px',
+  // height: '80px',
   margin: '0 32px',
   opacity: 0.7,
 };
 
 export default function LogoCollection() {
   const theme = useTheme();
-  const logos = theme.palette.mode === 'light' ? darkLogos : whiteLogos;
+  const logos = theme.palette.mode === 'light' ? betaTestLogos : betaTestLogos;
 
   return (
     <Box id="logoCollection" sx={{ py: 4 }}>
@@ -41,7 +50,7 @@ export default function LogoCollection() {
         align="center"
         sx={{ color: 'text.secondary' }}
       >
-        Trusted by the best companies
+        Refined in collaboration with facility teams from these organizations
       </Typography>
       <Grid container sx={{ justifyContent: 'center', mt: 0.5, opacity: 0.6 }}>
         {logos.map((logo, index) => (
