@@ -33,7 +33,7 @@ const items = [
     icon: <DevicesRoundedIcon />,
     title: 'Available on all platforms',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
+      `This item could let users know the product is available on all platforms, such as web, mobile, and desktop.`,
     imageLight: `url("https://mui.com/static/images/templates/templates-images/devices-light.png")`,
     imageDark: `url("https://mui.com/static/images/templates/templates-images/devices-dark.png")`,
   },

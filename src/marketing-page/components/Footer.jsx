@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
-import SitemarkIcon from './SitemarkIcon';
+import SitemarkIcon from './PeriscopeIcon';
 
 function Copyright() {
   return (
@@ -130,12 +130,8 @@ export default function Footer() {
           <Link color="text.secondary" variant="body2" href="#">
             About us
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
-            Careers
-          </Link>
-          <Link color="text.secondary" variant="body2" href="#">
-            Press
-          </Link>
+
+
         </Box>
         <Box
           sx={{

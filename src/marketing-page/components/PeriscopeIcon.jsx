@@ -1,7 +1,7 @@
 // import * as React from 'react';
 // import SvgIcon from '@mui/material/SvgIcon';
 
-// export default function SitemarkIcon() {
+// export default function PeriscopeIcon() {
 //   return (
 //     <SvgIcon sx={{ height: 21, width: 100, mr: 2 }}>
 //       <svg
@@ -56,7 +56,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-export default function SitemarkIcon() {
+export default function PeriscopeIcon() {
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', mr: 2 }}>
       <img

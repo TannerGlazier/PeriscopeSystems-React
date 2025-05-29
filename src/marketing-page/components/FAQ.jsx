@@ -43,6 +43,31 @@ export default function FAQ() {
       </Typography>
       <Box sx={{ width: '100%' }}>
         <Accordion
+          expanded={expanded.includes('panel2')}
+          onChange={handleChange('panel2')}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2d-content"
+            id="panel2d-header"
+          >
+            <Typography component="span" variant="subtitle2">
+              What is a Trash Cam and how does it work?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography
+              variant="body2"
+              gutterBottom
+              sx={{ maxWidth: { sm: '100%', md: '70%' } }}
+            >
+            Trash Cams are IoT-enabled devices that monitor the fill levels of trash cans in real-time. 
+            Using image classification and wireless connectivity, 
+            they alert facility management teams when a bin is full and ready for collection.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
           expanded={expanded.includes('panel1')}
           onChange={handleChange('panel1')}
         >
@@ -62,37 +87,13 @@ export default function FAQ() {
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
               You can reach our customer support team by emailing&nbsp;
-              <Link href="mailto:support@email.com">support@email.com</Link>
-              &nbsp;or calling our toll-free number. We&apos;re here to assist you
+              <Link href="mailto:support@periscopesystems.com">support@periscopesystems.com</Link>
+              &nbsp;
               promptly.
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion
-          expanded={expanded.includes('panel2')}
-          onChange={handleChange('panel2')}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2d-content"
-            id="panel2d-header"
-          >
-            <Typography component="span" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography
-              variant="body2"
-              gutterBottom
-              sx={{ maxWidth: { sm: '100%', md: '70%' } }}
-            >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
+
         <Accordion
           expanded={expanded.includes('panel3')}
           onChange={handleChange('panel3')}
@@ -103,7 +104,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="span" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What types of trash cans are compatible with Trash Cams?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -112,9 +113,8 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              Trash Cams are designed to fit most standard indoor and outdoor trash receptacles. 
+              We also offer custom mounting solutions for unique or non-standard bins.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -128,7 +128,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              How can Trash Cams improve our waste collection operations?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -137,10 +137,10 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              By providing real-time data on fill levels, 
+              Trash Cams help optimize collection routes, reduce unnecessary labor, 
+              and ensure bins are emptied before overflow, 
+              improving cleanliness and guest satisfaction.
             </Typography>
           </AccordionDetails>
         </Accordion>

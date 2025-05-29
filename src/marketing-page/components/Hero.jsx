@@ -21,8 +21,8 @@ const StyledBox = styled('div')(({ theme }) => ({
   border: '1px solid',
   borderColor: (theme.vars || theme).palette.grey[200],
   boxShadow: '0 0 12px 8px hsla(220, 25%, 80%, 0.2)',
-  // backgroundImage: `url(https://mui.com/static/screenshots/material-ui/getting-started/templates/dashboard.jpg)`,
-  backgroundImage: 'App_Screenshot_1.jpg',
+  backgroundImage: `url(https://mui.com/static/screenshots/material-ui/getting-started/templates/dashboard.jpg)`,
+  // backgroundImage: 'App_Screenshot_1.jpg',
   backgroundSize: 'cover',
   [theme.breakpoints.up('sm')]: {
     marginTop: theme.spacing(10),
@@ -30,8 +30,8 @@ const StyledBox = styled('div')(({ theme }) => ({
   },
   ...theme.applyStyles('dark', {
     boxShadow: '0 0 24px 12px hsla(210, 100%, 25%, 0.2)',
-    // backgroundImage: `url(https://mui.com/static/screenshots/material-ui/getting-started/templates/dashboard-dark.jpg)`,
-    backgroundImage: 'App_Screenshot_1.jpg',
+    backgroundImage: `url(https://mui.com/static/screenshots/material-ui/getting-started/templates/dashboard-dark.jpg)`,
+    // backgroundImage: 'App_Screenshot_1.jpg',
     outlineColor: 'hsla(220, 20%, 42%, 0.1)',
     borderColor: (theme.vars || theme).palette.grey[700],
   }),
