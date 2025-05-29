@@ -73,19 +73,20 @@ export default function Hero() {
               fontSize: 'clamp(3rem, 10vw, 3.5rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
+            Bin&nbsp;There,&nbsp;
             <Typography
               component="span"
               variant="h1"
               sx={(theme) => ({
                 fontSize: 'inherit',
-                color: 'primary.main',
+                // color: 'primary.main',
+                color: "#2dd9ff",
                 ...theme.applyStyles('dark', {
                   color: 'primary.light',
                 }),
               })}
             >
-              products
+              Done&nbsp;That&nbsp;
             </Typography>
           </Typography>
           <Typography
