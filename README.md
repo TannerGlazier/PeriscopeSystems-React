@@ -1,42 +1,12 @@
 # Periscope Systems Site
 
-[![Hello]]
+Welcome to the official website for Periscope Systems—a leader in IoT solutions for facility management teams. This site provides information about our company, showcases our innovative products, and helps facility managers discover how our technology can streamline their operations.
 
+## About Periscope Systems
+Periscope Systems designs and manufactures advanced IoT devices that empower facility management teams to monitor, control, and optimize their buildings and assets. Our solutions focus on reliability, security, and ease of integration.
 
- 
-
-Download the example [or clone the repo](https://github.com/mui/material-ui):
-
-<!-- #target-branch-reference -->
-
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/material-ui-vite
-cd material-ui-vite
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-```
-
-or:
-
-<!-- #target-branch-reference -->
-
-<!-- [![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-ui-vite)
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-vite) -->
-
-## The idea behind the example
-
-This example uses [Vite.js](https://github.com/vitejs/vite).
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI.
-
-## What's next?
-
-<!-- #host-reference -->
-
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+## Website Features
+Company Overview: Learn about our mission, values, and team.
+Product Showcase: Explore our range of IoT devices and solutions.
+Use Cases: See how our products solve real-world facility management challenges.
+Contact Information: Get in touch for demos, support, or partnership opportunities.
