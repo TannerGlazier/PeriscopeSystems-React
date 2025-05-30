@@ -9,31 +9,42 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 
 import DevicesRoundedIcon from '@mui/icons-material/DevicesRounded';
-import EdgesensorHighRoundedIcon from '@mui/icons-material/EdgesensorHighRounded';
-import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
+import Timer from '@mui/icons-material/Timer';
+import Notifications from '@mui/icons-material/Notifications';
+import QueryStats from "@mui/icons-material/QueryStats";
 
 const items = [
   {
-    icon: <ViewQuiltRoundedIcon />,
-    title: 'Dashboard',
+    icon: <Timer />,
+    title: 'Increased Operational Efficiency',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
+      'Automating the trash monitoring process streamlines the workflow for custodial teams, allowing them to focus on high-priority tasks and reduce time spent on manual checks.',
     imageLight: `url(https://mui.com/static/images/templates/templates-images/dash-light.png)`,
+    
     imageDark: `url(https://mui.com/static/images/templates/templates-images/dash-dark.png)`,
   },
   {
-    icon: <EdgesensorHighRoundedIcon />,
-    title: 'Mobile integration',
+    icon: <Notifications />,
+    title: 'Real-Time Monitoring and Alerts',
     description:
-      'This item could provide information about the mobile app version of the product.',
+      'Receive real-time updates on trash levels, enabling facility managers to respond immediately to urgent situations and prevent overflow issues before they occur.',
     imageLight: `url(https://mui.com/static/images/templates/templates-images/mobile-light.png)`,
+    // imageLight: 'App_Screenshot_3.jpg',
     imageDark: `url(https://mui.com/static/images/templates/templates-images/mobile-dark.png)`,
   },
   {
+    icon: <QueryStats/>,
+    title: 'Detailed Analytics and Insights',
+    description:
+      `Gain valuable insights into trash collection patterns, peak usage times, and overall waste management performance, helping facility managers make data-driven decisions to improve operations.`,
+    imageLight: `url("https://mui.com/static/images/templates/templates-images/devices-light.png")`,
+    imageDark: `url("https://mui.com/static/images/templates/templates-images/devices-dark.png")`,
+  },
+    {
     icon: <DevicesRoundedIcon />,
     title: 'Available on all platforms',
     description:
-      `This item could let users know the product is available on all platforms, such as web, mobile, and desktop.`,
+      `Download our app 'Trash Cams' on the Apple App Store or the Google Play Store`,
     imageLight: `url("https://mui.com/static/images/templates/templates-images/devices-light.png")`,
     imageDark: `url("https://mui.com/static/images/templates/templates-images/devices-dark.png")`,
   },
@@ -158,9 +169,10 @@ export default function Features() {
           variant="body1"
           sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
         >
-          Provide a brief overview of the key features of the product. For example,
-          you could list the number of features, their types or benefits, and
-          add-ons.
+        Trash Cams by Periscope Systems are smart IoT devices designed to optimize waste management. 
+        By monitoring trash can fill levels in real time and sending automated alerts when bins are full, 
+        Trash Cams help facility management teams reduce unnecessary pickups, prevent overflow, and improve overall cleanliness. 
+        Ideal for high-traffic environments, Trash Cams streamline operations, lower costs, and support sustainability goals.
         </Typography>
       </Box>
       <Box
